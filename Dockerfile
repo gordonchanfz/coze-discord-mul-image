@@ -8,7 +8,7 @@ EXPOSE 7077
 # 使用RUN命令查看$CONFIG的值，进行调试
 RUN echo "Before writing to JSON: $BOT_CONFIG"
 # 使用ENV命令设置环境变量，并将其写入JSON文件
-RUN echo "$BOT_CONFIG" | sed 's/\\/\"/g > /app/coze-discord-proxy/data/config/bot_config.json
+RUN echo "$BOT_CONFIG" | sed 's/\/"/g > /app/coze-discord-proxy/data/config/bot_config.json
 
 # 再次使用RUN命令查看bot_config.json的内容，进行调试
 RUN cat /app/coze-discord-proxy/data/config/bot_config.json
