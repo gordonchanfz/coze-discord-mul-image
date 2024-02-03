@@ -7,4 +7,6 @@ CMD ["sh", "-c", "echo '{\"bot_config\":\"${BOT_CONFIG}\"}' > /app/coze-discord-
 
 WORKDIR /app/coze-discord-proxy/data
 
+EXPOSE 7077
+
 ENTRYPOINT ["/coze-discord-proxy"]
