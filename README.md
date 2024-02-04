@@ -59,13 +59,7 @@ Render 可以直接部署 docker 镜像，不需要 fork 仓库：[Render](https
 
 ## 多频道部署(会话隔离)
 
-点击一键部署:
-
-[![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/templates/KXBV2H?referralCode=gordonchanfz)
-
-**一键部署后 `BOT_TOKEN`,`GUILD_ID`,`COZE_BOT_ID`,`PROXY_SECRET`,`CHANNEL_ID`,`BOT_CONFIG`变量也需要替换！**
-
-或手动部署:
+手动部署:
 
 1. 首先 **fork** 一份代码。
 2. 进入 [Zeabur](https://zeabur.com?referralCode=deanxv)，使用github登录，进入控制台。
