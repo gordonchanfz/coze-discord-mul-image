@@ -143,7 +143,7 @@ Render 可以直接部署 docker 镜像，不需要 fork 仓库：[Render](https
    "stream": true
    }'
    ```
-
+![image](https://github.com/gordonchanfz/coze-discord-mul-image/assets/77518307/e1a4aea3-0834-4d40-a612-8ca41fd3a68b)
 
 最后要说的有三点：
 1. 本篇没什么技术含量，主要是baipiao作者项目，得有点贡献，觉得不错就帮原作者推广；
