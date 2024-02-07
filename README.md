@@ -107,18 +107,6 @@ Render 可以直接部署 docker 镜像，不需要 fork 仓库：[Render](https
 ![image](https://github.com/gordonchanfz/coze-discord-mul-image/assets/77518307/24325e3f-a835-4ae3-a857-dc14e29339a2)
 
 8. 部署好，可以先自测，下面接口测试命令：
-   ```shell
-   curl -X 'POST' \
-   'https://your.zeabur.app/api/chat' \
-   -H 'accept: application/json' \
-   -H 'proxy-secret: your key' \
-   -H 'Content-Type: application/json' \
-   -d '{
-   "channelId": "your channelId",
-   "content": "画一只猪",
-   "stream": true
-   }'
-   ```
 
    ```shell
    curl -X 'POST' \
@@ -127,7 +115,6 @@ Render 可以直接部署 docker 镜像，不需要 fork 仓库：[Render](https
     -H 'Authorization: your key' \
     -H 'Content-Type: application/json' \
     -d '{
-    "channelId": "your channelId",
     "messages": [
       {
         "content": "鲁迅和周树人是两个人？",
