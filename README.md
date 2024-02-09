@@ -81,25 +81,25 @@ Render 可以直接部署 docker 镜像，不需要 fork 仓库：[Render](https
    `BOT_CONFIG`:
    ``` 
    [
-  {
-    "proxySecret": "123", // 接口请求密钥(PROXY_SECRET)
-    "cozeBotId": "12***************31", // coze托管的机器人ID
-    "model": "GPT-3.5-16k", // coze托管的机器人模型名称(与请求参数中的model对应,如请求中的model在该json中为匹配到则会抛出异常)
-    "channelId": "12***************56"  // [可选]discord频道ID(机器人必须在此频道所在的服务器)(目前版本下该参数仅用来活跃机器人)
-  },
-  {
-    "proxySecret": "456",
-    "cozeBotId": "12***************64",
-    "model": "GPT-4-8k", 
-    "channelId": "12***************78"
-  },
-  {
-    "proxySecret": "789",
-    "cozeBotId": "12***************12",
-    "model": "GPT-4-Turbo-128k",
-    "channelId": "12***************24"
-  }
-]
+     {
+       "proxySecret": "123", // 接口请求密钥(PROXY_SECRET)
+       "cozeBotId": "12***************31", // coze托管的机器人ID
+       "model": "GPT-3.5-16k", // coze托管的机器人模型名称(与请求参数中的model对应,如请求中的model在该json中为匹配到则会抛出异常)
+       "channelId": "12***************56"  // [可选]discord频道ID(机器人必须在此频道所在的服务器)(目前版本下该参数仅用来活跃机器人)
+     },
+     {
+       "proxySecret": "456",
+       "cozeBotId": "12***************64",
+       "model": "GPT-4-8k", 
+       "channelId": "12***************78"
+     },
+     {
+       "proxySecret": "789",
+       "cozeBotId": "12***************12",
+       "model": "GPT-4-Turbo-128k",
+       "channelId": "12***************24"
+     }
+   ]
    ```
 
 
